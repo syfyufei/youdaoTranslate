@@ -1,0 +1,22 @@
+Package: youdaoTranslate
+Title: Calling Youdao translation page for translation
+Version: 0.0.1
+Authors@R: person(given = "Yufei",family = "Sun",role = c("aut","cre"), email = "sunyf20@mails.tsinghua.edu.cn")
+Author: Yufei Sun [aut, cre]
+Maintainer: Yufei Sun <sunyf20@mails.tsinghua.edu.cn>
+Description: Free and limited access to Youdao translation pages for word-level translation from Chinese to English.
+License: MIT + file LICENSE
+Encoding: UTF-8
+BugReports: https://github.com/syfyufei/youdaoTranslate/issues
+Depends:
+  R(>= 4.2.0)
+Imports: rvest, httr, dplyr
+Suggests:
+    testthat (>= 3.0.0),
+    rmarkdown,
+    knitr
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Config/testthat/edition: 3
+VignetteBuilder: knitr
